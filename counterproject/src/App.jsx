@@ -3,10 +3,16 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-const [counter,setcounter]=useState(0);
+const [counter,setcounter]=useState(15);
 
 const add=(()=>
-setcounter(counter+1)
+{
+
+  setcounter(counter+1)
+  setcounter(counter+1)
+  setcounter(counter+1)
+  setcounter(counter+1)
+}
 )
 
 const  minus=(()=>{
